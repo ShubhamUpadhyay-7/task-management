@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './Homepage.module.css';
+import Login from '../components/Login';
 
 const Homepage = () => {
     return (
-        <div>
+        <div className={styles.page}>
             <div className={styles.left}>
                 <div className={styles.img1}>
                     <img src="/assets/Group.png" alt="homepage_logo" />
@@ -14,9 +15,7 @@ const Homepage = () => {
                 </div>
             </div>
             <div className={styles.right}>
-                <div className={ }>
-
-                </div>
+                <Login />
             </div>
         </div>
     )
