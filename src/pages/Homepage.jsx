@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Homepage.module.css';
 import Login from '../components/Login';
+import Register from '../components/Register';
 
 const Homepage = () => {
     return (
@@ -15,7 +16,8 @@ const Homepage = () => {
                 </div>
             </div>
             <div className={styles.right}>
-                <Login />
+                {/* <Login /> */}
+                <Register />
             </div>
         </div>
     )
